@@ -1,4 +1,4 @@
-package com.gevernova.stream;
+package com.gevernova.day2.stream;
 
 public class Contact {
     private String firstName, lastName, address, city, state, email;

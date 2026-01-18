@@ -1,4 +1,4 @@
-package com.gevernova.stream;
+package com.gevernova.day2.stream;
 import java.util.*;
 
 public class Main {

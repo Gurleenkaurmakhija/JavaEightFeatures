@@ -1,4 +1,5 @@
-package com.gevernova.lambdaexpression;
+package com.gevernova.day2.lambdaexpression;
+import java.util.regex.Pattern;
 
 
 public class UserRegistration {
@@ -13,6 +14,11 @@ public class UserRegistration {
 
         return true;
     };
+
+
+
+    /*Validator firstNameValidator = name ->
+            Pattern.matches("^[A-Z][a-zA-Z]{2,}$", name);*/
 
     // UC2: Last Name
     public Validator lastNameValidator = name -> {

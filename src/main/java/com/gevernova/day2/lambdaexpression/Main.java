@@ -1,4 +1,4 @@
-package com.gevernova.lambdaexpression;
+package com.gevernova.day2.lambdaexpression;
 
 public class Main {
     public static void main(String[] args) {
