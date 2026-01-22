@@ -1,0 +1,21 @@
+package com.gevernova.day1.virtualclassroom;
+
+import java.util.HashMap;
+
+public class Assignment {
+    String title;
+    HashMap<Student, Integer> grades = new HashMap<>();
+
+    // constructor
+    Assignment(String title) {
+        this.title = title;
+    }
+
+    void submitAssignment(Student s) {
+        grades.put(s, null);
+    }
+
+    void gradeAssignment(Student s, int marks) {
+        grades.put(s, marks);
+    }
+}
