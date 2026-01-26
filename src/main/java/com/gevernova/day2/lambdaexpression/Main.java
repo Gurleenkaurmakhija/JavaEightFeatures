@@ -1,10 +1,13 @@
 package com.gevernova.day2.lambdaexpression;
 
 public class Main {
+
     public static void main(String[] args) {
 
+        // create registration object
         UserRegistration user = new UserRegistration();
 
+        // validate user details
         System.out.println("First Name Valid : " +
                 user.firstNameValidator.validate("Gurleen"));
 
