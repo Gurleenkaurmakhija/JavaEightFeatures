@@ -10,7 +10,6 @@ class Filter {
     }
 
     public static void main(String[] args) {
-
         List<String> words = Arrays.asList("apple", "kiwi", "banana");
 
         words.stream()
