@@ -96,10 +96,3 @@ public class AddressBook {
 
 
 
-
-    /*new Comparator<Contact>() {
-        public int compare(Contact c1, Contact c2) {
-            return c1.getFirstName().compareTo(c2.getFirstName());
-        }
-    };*/
-
