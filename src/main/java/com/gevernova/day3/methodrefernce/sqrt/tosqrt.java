@@ -7,7 +7,6 @@ public class tosqrt {
     public static void main(String[] args) {
 
         List<Integer> nums = Arrays.asList(4, 9, 16);
-
         nums.stream()
                 .map(Math::sqrt)
                 .forEach(System.out::println);
