@@ -12,7 +12,6 @@ public class Main {
         // create courses
         Course course = new Course("Java", instructor1);
         Course course2 = new Course("DSA", instructor2);
-
         // create students
         Student s1 = new Student(101, "Aman");
         Student s2 = new Student(102, "Neha");
