@@ -10,6 +10,7 @@ public class Main{
         System.out.print("Enter a string: ");
         String input = sc.nextLine();
 
+
         Optional.ofNullable(input)
                 .map(String::toUpperCase)
                 .ifPresent(System.out::println); // method reference
