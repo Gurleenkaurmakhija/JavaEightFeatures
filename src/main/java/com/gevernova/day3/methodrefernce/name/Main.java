@@ -15,7 +15,5 @@ public class Main {
         list1.forEach(Person::getName);
 
 
-        //list1.forEach(p::getName(p));
-
     }
 }
