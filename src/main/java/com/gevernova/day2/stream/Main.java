@@ -3,6 +3,7 @@ import java.util.*;
 
 public class Main {
 
+    // stores multiple address books
     private static Map<String, AddressBook> addressBookMap = new HashMap<>();
 
     public static void main(String[] args) {
@@ -12,6 +13,8 @@ public class Main {
         addressBookMap.put("Default", addressBook);
 
         while (true) {
+
+            // main menu
             System.out.println("\n--- MAIN MENU ---");
             System.out.println("1. Add Contact to Book");
             System.out.println("2. Edit Contact");
@@ -29,6 +32,7 @@ public class Main {
             switch (choice) {
 
                 case 1:
+                    // add new contact
                     System.out.println("Enter First Name:");
                     String fn = sc.next();
                     System.out.println("Enter Last Name:");
@@ -52,20 +56,24 @@ public class Main {
                     break;
 
                 case 2:
+                    // edit existing contact
                     System.out.println("Enter First Name to Edit:");
                     addressBook.editContact(sc.next(), sc);
                     break;
 
                 case 3:
+                    // delete contact
                     System.out.println("Enter First Name to Delete:");
                     addressBook.deleteContact(sc.next());
                     break;
 
                 case 4:
+                    // view all contacts
                     addressBook.viewContacts();
                     break;
 
                 case 5:
+                    // create new address book
                     System.out.println("Enter AddressBook Name:");
                     String name = sc.next();
                     addressBookMap.put(name, new AddressBook());
@@ -73,21 +81,25 @@ public class Main {
                     break;
 
                 case 6:
+                    // search by city or state
                     System.out.println("Enter City or State:");
                     addressBook.searchByLocation(sc.next());
                     break;
 
                 case 7:
+                    // view persons by location
                     System.out.println("Enter City or State:");
                     addressBook.viewByLocation(sc.next());
                     break;
 
                 case 8:
+                    // count persons by location
                     System.out.println("Enter City or State:");
                     addressBook.countByLocation(sc.next());
                     break;
 
                 case 9:
+                    // sort contacts by name
                     addressBook.sortByName();
                     break;
 
