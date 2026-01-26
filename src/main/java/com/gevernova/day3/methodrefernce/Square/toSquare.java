@@ -16,7 +16,7 @@ public class toSquare {
         list1.forEach(toSquare::Square);
 
 
-        //list1.stream().map(s->s*s).forEach(System.out::println);
+
     }
 
 }
