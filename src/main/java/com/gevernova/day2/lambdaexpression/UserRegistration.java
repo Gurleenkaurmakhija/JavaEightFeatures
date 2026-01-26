@@ -17,9 +17,6 @@ public class UserRegistration {
 
 
 
-    /*Validator firstNameValidator = name ->
-            Pattern.matches("^[A-Z][a-zA-Z]{2,}$", name);*/
-
     // UC2: Last Name
     public Validator lastNameValidator = name -> {
         if (name.length() < 3) return false;
