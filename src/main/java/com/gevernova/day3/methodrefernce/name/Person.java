@@ -5,7 +5,8 @@ public class Person {
     Person(String n){
         this.name=n;
     }
-     static void getName(Person p){
+
+    static void getName(Person p){
          System.out.println(p.name);
     }
 }
